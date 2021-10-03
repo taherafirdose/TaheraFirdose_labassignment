@@ -1,24 +1,22 @@
 {
-  "name": "portfolio_site",
-  "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "name": "assignment1",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.15.4",
-    "bootstrap": "^5.1.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
-    "jquery": "^3.6.0",
-    "morgan": "~1.9.1"
-  }
+    "morgan": "~1.9.1",
+    "save": "^2.4.0"
+  },
+  "engines": {
+        "node": "12.16.3",
+        "npm": "6.14.4"
+    } 
+
 }
