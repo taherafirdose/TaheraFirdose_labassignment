@@ -16,7 +16,7 @@ body h1,h2,h3,h4,h5,h6{
 }
 /* homepage */
 #homeintro {
-    background: url('Assets\images\homebg.jpg') no-repeat center top;
+    background: url('../images/homebg.jpg');
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -27,7 +27,7 @@ body h1,h2,h3,h4,h5,h6{
 }
 /*-- header --*/
 #home {
-    background: url('Assets/images/footer-background-02.jpg') no-repeat center top;
+    background: url('../images/footer-background-02.jpg');
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -228,7 +228,7 @@ ul.social-icons{
     margin-right: 1%;
 }
 .social-icons li a{  
-    background: url('Assets/images/social-icons.png') no-repeat 3px 3px;
+    background: url('../images/social-icons.png');
     display: block;
     height: 32px;
     width: 32px;
@@ -891,7 +891,8 @@ ul.year li:nth-child(5){
 }
 /*-- feedback --*/
 .feedback{
-	background: url('../images/feedback-bg.jpg') no-repeat 0px 0px;
+	background: url('../images/feedback-bg.jpg') ;
+
 	background-size: cover;
 	min-height: 300px;
 	padding: 6em 0 0 0;
@@ -1214,7 +1215,7 @@ span.border.two:after {
     left:65px;
 }
 .contact{
-    background: url('Assets/images/contactback.jpg') no-repeat center top;
+    background: url('../images/contactback.jpg') ;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1225,7 +1226,7 @@ span.border.two:after {
 }
 /*-- footer --*/
 .footer {
-    background: url('Assets/images/footer-background-02.jpg') no-repeat center top;
+    background: url('../images/footer-background-02.jpg');
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2047,13 +2048,13 @@ display: block;
   height:35px;
 }
 .owl-next{
-  background: url(../images/right-arrow.png) no-repeat 0px 0px;
+  background: url(../images/right-arrow.png);
   position: absolute;
   right: 0%;
   top:57%;
 }
 .owl-prev{
-  background: url(../images/left-arrow.png) no-repeat 0px 0px;
+  background: url(../images/left-arrow.png);
   position: absolute;
   left: -2%;
   top:57%;
