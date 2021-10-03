@@ -1,0 +1,105 @@
+
+	<%- include partials/header.ejs %>
+			
+
+<body>
+  <div class="service-head text-center">
+           
+            <h3>MY <span>SERVICES</span></h3>
+            <span class="border"></span>
+          </div>
+       <!-- Topic Cards -->
+    <div id="cards_landscape_wrap-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="Assets/images/service01.jpg" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Consulting</h6>
+                                    <p>Review of entire testing organisation including processes, people, tools and technologies</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="Assets/images/service02.jpg" alt="" />
+                                </div>
+                                <div class="text-container">                                    
+                                    <h6>Test Automation</h6>
+                                    <p>Automation of regression test suites to achieve lower testing costs and faster time to market.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="Assets/images/service03.png" alt="" />
+                                </div>
+
+                                <div class="text-container">
+                                    <h6>Digital Testing</h6>
+                                   <p>End to end function and non-functional testing of digital applications including social, mobile, analytics and cloud.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                    <a href="">
+                        <div class="card-flyer">
+                            <div class="text-box">
+                                <div class="image-box">
+                                    <img src="Assets/images/service04.jpg" alt="" />
+                                </div>
+                                <div class="text-container">
+                                    <h6>Manual Testing</h6>
+                                   <p>Manual functional testing of applications to ensure all features work as expected.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+ <%- include partials/footer.ejs %>
+
+<a href="#home" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+  <!--start-smooth-scrolling-->
+            <script type="text/javascript">
+                  $(document).ready(function() {
+                    /*
+                    var defaults = {
+                      containerID: 'toTop', // fading element id
+                      containerHoverID: 'toTopHover', // fading element hover id
+                      scrollSpeed: 1200,
+                      easingType: 'linear' 
+                    };
+                    */
+                    
+                    $().UItoTop({ easingType: 'easeOutQuart' });
+                    
+                  });
+                </script>
+                <!--end-smooth-scrolling-->
+<!-- //for bootstrap working -->
+  <script src="/javascripts/bootstrap.js"></script>
+  
+  </body>
+</html>
